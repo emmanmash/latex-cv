@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Version 1.2 (27/3/2017)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Emmanuel}{Mashandudze}
+\address{19 Prince Charles Street, Southfield, Cape Town, 7800}
+\mobile{(+27) 78 92 00 150}
+
+\email{emmashepi@gmail.com}
+\github{emmanmash}
+\linkedin{emmanuel-mashandudze-b927b15/}
+%\skype{emmwafadzi}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+\extrainfo{SA-ID: 850312****186} % Other text you want to include on this line
+
+\position{Software Engineer{\enskip\cdotp\enskip}Business Intelligence Developer} % Your expertise/fields
+
+\makecvfooter{\today}{Emmanuel Mashandudze~~~·~~~Résumé}{\thepage} % 
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%\input{cv-sections/summary.tex}
+\input{cv-sections/education.tex}
+\input{cv-sections/skills.tex}
+\input{cv-sections/experience.tex}
+\input{cv-sections/extracurricular.tex}
+\newpage
+\input{cv-sections/honors.tex}
+\input{cv-sections/references.tex}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
